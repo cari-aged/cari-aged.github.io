@@ -9,19 +9,59 @@
     <title>AGED CHECKER</title>
 </head>
 <style>
+<!-- HTML !-->
 
+
+/* CSS */
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}
 </style>
 <body>
-    <center><img src="logo-aged.png" width="200px"></img></center><br>
+    <center><img id="top" src="logo-aged.png" width="200px"></img></center><br>
     <script async src="https://cse.google.com/cse.js?cx=247ff72c70cfb4141">
     </script>
     <div class="gcse-search"></div>
-   
-
-    <iframe src="https://id.auctions.godaddy.com/"  style="height: 500px; width: 100%;">
+    <a href="#spam">
+    <button class="button-22" role="button">CHECK SPAM SCORE</button>
+</a>
+    <iframe  src="https://id.auctions.godaddy.com/"  style="height: 500px; width: 100%;">
 
     </iframe>
-    <br> <br>
-   
+    <br> <br><br> <br><br> <br><br> <br><br> <br><br> <br>
+    <a href="#top">
+    <button class="button-22" role="button">KEMBALI KE-ATAS</button>
+</a>
+   <iframe id="spam" src="https://websiteseochecker.com/spam-score-checker/" style="height: 500px; width: 100%;"></iframe>
 </body>
 </html>
